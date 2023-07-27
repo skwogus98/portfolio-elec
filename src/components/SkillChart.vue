@@ -1,7 +1,7 @@
 <template lang="">
     <div>
         <div class="text-lg my-6 px-4">- 기술 이해도</div>
-        <Bar class="w-full h-full relative" :data="data" :options="options"></Bar>
+        <Bar class="relative" :data="data" :options="options" :style="chartStyle"></Bar>
     </div>
 </template>
 <script>
@@ -14,6 +14,14 @@ export default {
         Bar,
     },
     props: ["data", "options"],
+    data() {
+        return {
+            chartStyle:{
+                height: "250px",
+                width: "700px"
+            }
+        }
+    },
 };
 </script>
 <style></style>
