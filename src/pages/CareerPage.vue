@@ -3,7 +3,7 @@
         <router-link class="h-12 absolute top-80" to="/"><img src="../img/left-arrow.png" class="h-12 hover:animate-bounce" alt=""></router-link>
         <router-link class="h-12 absolute top-80 right-arrow" to="/Projects"><img src="../img/right-arrow.png" class="h-12 animate-bounce" alt=""></router-link>
         <div class="w-screen h-screen py-24 px-12 flex">
-            <div class=" mx-8 text-4xl border-r-2 pr-6 border-gray-500">Career</div>
+            <div class="w-44 mx-8 text-4xl border-r-2 pr-6 border-gray-500">Career</div>
             <CareerGraph :careerList="careerList"></CareerGraph>
         </div>
     </div>
