@@ -10,10 +10,13 @@ export default {
 </script>
 
 <style>
-@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@font-face { font-family: 'NanumBarunGothic';
+src: url('./fonts/NanumBarunGothic.eot');
+src: url('./fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+url('./fonts/NanumBarunGothic.woff') format('woff');}
 
 #app {
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'NanumBarunGothic', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
